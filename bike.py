@@ -1,10 +1,10 @@
 import math
 
-tfront=46
+tfront=42
 trear=13
-wheel=66
-cadance=60
+cmwheel=66
+rpmcadance=60
 ratio=tfront/trear
-speed=ratio*math.pi*wheel*cadance*0.0006
+kmhspeed=ratio*math.pi*cmwheel*rpmcadance*0.0006
 print(ratio)
-print(speed)
+print(kmhspeed)
